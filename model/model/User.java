@@ -1,9 +1,13 @@
 package model;
 
 import java.io.Serializable;
-import javax.persistence.*;
 import java.math.BigInteger;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.NamedQuery;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
 
 /**
  * The persistent class for the users database table.
